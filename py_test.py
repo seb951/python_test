@@ -61,8 +61,9 @@ print(dna2)
 #Working with files
 my_file = open("dna.txt")
 my_dna_temp = my_file.read()
-my_dna = my_dna_temp.rstrip("GCCTGT\n")
-my_dna = my_file.read().rstrip("\n")
+#my_dna = my_dna_temp.rstrip("GCCTGT\n")
+#my_dna = my_file.read().rstrip("\n")
+my_dna = my_dna_temp.splitlines()
 dna_length = len(my_dna)
 print("sequence is " + my_dna +  " and length is " + str(dna_length))
 
