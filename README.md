@@ -1,3 +1,2 @@
 # python_test
-
-A collection of tests and examples of simple python scripts.
+Here are a few examples and tests of simple python scripts.
