@@ -1,7 +1,0 @@
-this
-is 
-an
-short
-input
-file
-
